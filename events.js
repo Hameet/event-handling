@@ -46,7 +46,7 @@ function four () {
 
   var four = document.getElementById('four')
 
-  four.addEventListener('mouseenter', makeYellow)
+  four.addEventListener('click', makeYellow)
   four.addEventListener('mouseleave', makeWhite)
 }
 // Changes the background color of event's target
